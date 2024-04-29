@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hire_broker.css" />
+    <link rel="stylesheet" href="loading.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@400;600;700;800&display=swap"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
+    <title>Hire Brokers</title>
+  </head>
+
+  <body>
+
+    <div id="loading-screen">
+      <img id="roller" class="spinner" id="jumping-monkey" src="./images/Ellipse 2 (1).png">
+  
+      <h1 id="loadin" >Loading...</h1>
+  
+      <img id="moonkey" class="jummper" height="140px" src="./images/monkey.png">
+    </div>
+
+     
+  <div id="content" style="display: none;">
+
+    <div class="landing-page-item"></div>
+      <!-- <div class="landing-page-inner"></div> -->
+      <img class="download-3-removebg-preview-icon3" alt="company logo" src="./public/logo/BBlogo.png"/>
+
+      <div class="home3" ><a href="index.html" style="text-decoration: none; color: white;">Home</a></div>
+      <div class="lists1" ><a href="list.html" style="text-decoration: none; color: white;" >Listings</a></div>
+      <div class="find-brokers" > <a href="hire_broker.html" style="text-decoration: none; color: white;">Find Brokers</a></div>
+      <div class="contact3"><a href="contact-us.html" style="text-decoration: none; color: white;">Contact</a></div>
+      <div class="about-us3"><a href="AboutUS.html" style="text-decoration: none; color: white;">About Us</a></div>
+      <!-- <div class="hire-page-child1"></div> -->
+      <div class="landing-page-child2"></div>
+      <div class="login2"><a href="Login.html" style="text-decoration: none; color: white;">Login</a></div>
+    <hr class="horizontal-line"/>
+    <div class="button-container">
+      <button  class="button"><a id="no_dec" href="./hire_broker.html">Hire a Broker</a></button>
+      <button class="button"><a id="no_dec" href="./list.html">Rent/Buy Property</a></button>
+      <button class="button"><a id="no_dec" href="./CN.html">Find your Neighbour</a></button>
+      <button class="button"><a id="no_dec" href="./contact-us.html">Investment options</a></button>
+      
+    </div>
+    <hr />
+    <div class="bread-crumb">
+      <img src="./images/Vector.svg" alt="Home Icon " class="home-icon" />
+      <span class="current-page">/ Hire a Broker</span>
+    </div>
+
+    <div class="dropdown-container">
+      <!-- <label class="drp" for="service-options">Service Options:</label> -->
+      <select class="drp" id="service-options">
+        <option value>Service options</option>
+        <option value="option1">Property Broker</option>
+        <option value="option2">Investor Guide</option>
+      </select>
+
+      <!-- <label for="seller-details">Seller Details:</label> -->
+      <select class="drp" id="seller-details">
+        <option value="option4">Budget</option>
+        <option value="option5">High to Low</option>
+        <option value="option6">Low to High</option>
+      </select>
+
+      <select class="drp" id="budget">
+        <option value="option7">Region</option>
+        <option value="option8">Your Location</option>
+        <option value="option9">Random</option>
+      </select>
+
+      <select class="drp" id="region">
+        <option value="option10">Experience</option>
+        <option value="option11"> Newest</option>
+        <option value="option12">High</option>
+      </select>
+    </div>
+
+    <div class="header">
+      <div class="left-section">
+        <p>12 services available</p>
+      </div>
+      <div class="right-section">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <!-- Person 1 -->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 12.png"
+          alt="Person 1"
+          width="381"
+          height="282"
+        />
+        <div class="profile-info">
+          <div class="profile">
+              <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+
+              
+         </a>
+         <p class="name">Ram Raj</p>
+            
+          </div>
+          <div class="description">
+            I've work experience of more than 20 years and passionate about buisness.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Person 2 -->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 2.png"
+          alt="Person 2"
+          width="381"
+          height="282"
+        />
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            
+        </a> 
+        <p class="name">Shikhar Sharma</p>
+          </div>
+          <div class="description">
+            I love the real estate market as how moving it can be I can provide you the best deals ever.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">4.8</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Person 3 -->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 10.png"
+          alt="Person 3"
+          width="381"
+          height="282"
+        />
+        </a>
+        
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Prabsimran Singh</p>
+          </div>
+          <div class="description">
+            Cricket and real estate is my love forever.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">4.9</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Person 4 -->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 9.png"
+          alt="Person 4"
+          width="381"
+          height="282"
+        />
+        </a>
+        
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Shashank Singh</p>
+          </div>
+          <div class="description">
+            I might be the accidental buy but i provide the best deals.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">4.7</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 8.png"
+          alt="Person 5"
+          width="381"
+          height="282"
+        />
+        </a>
+        
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Ashutosh Sharma</p>
+          </div>
+          <div class="description">
+            You might think that we're weak but let's see records.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Person 6 -->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 7.png"
+          alt="Person 5"
+          width="381"
+          height="282"
+        />
+        </a>
+       
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Harshal patel</p>
+          </div>
+          <div class="description">
+            Experience of more than 20 years and still going well with a heavy track record.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Person 7 -->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 6.png"
+          alt="Person 5"
+          width="381"
+          height="282"
+        />
+        </a>
+        
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Arshdeep Singh</p>
+          </div>
+          <div class="description">
+           Experience of more than 2 years and still going well and hope to do better.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Person 8-->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 5.png"
+          alt="Person 5"
+          width="381"
+          height="282"
+        />
+        </a>
+        
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Harpreet Brar</p>
+          </div>
+          <div class="description">
+           Let's go when you are ready.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Person 9-->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 4.png"
+          alt="Person 5"
+          width="381"
+          height="282"
+        />
+        </a>
+        
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Sam Curran</p>
+          </div>
+          <div class="description">
+            I am a English player with loads of talent in backpocket.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Person 10-->
+      <div class="grid-item">
+        <img
+          src="./images/image 3.png"
+          alt="Person 5"
+          width="381"
+          height="282"
+        />
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Johhny Bairstow</p>
+          </div>
+          <div class="description">
+            LI will fight your case.I am havinh ten years of experience.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Person 11-->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 11.png"
+          alt="Person 5"
+          width="381"
+          height="282"
+        />
+        </a>
+        
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Liam Livingstone</p>
+          </div>
+          <div class="description">
+            I am the 12th man of team.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Person 12-->
+      <div class="grid-item">
+        <a href="chatbot.html">
+          <img
+          src="./images/image 1.png"
+          alt="Person 5"
+          width="381"
+          height="282"
+        />
+        </a>
+        
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile 1" />
+            <p class="name">Nathan Ellis</p>
+          </div>
+          <div class="description">
+            If i start to play then game is already over.
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="10" height="10" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="numbar">
+      <a href="./hire_broker.html"><img src="./images/Ellipse4.png" /></a>
+      <!-- <div class="numbers"> -->
+      <a class="source" href="./hire_broker.html">1</a>
+      <a class="source" href="./db.html">2</a>
+      <a class="source" href="./db.html">3</a>
+      <a class="source" href="./db.html">4</a>
+      <a class="source" href="./db.html">5</a>
+      <a class="source" href="./db.html">6</a>
+      <a class="source" href="./db.html">7</a>
+      <a class="source" href="./db.html">8</a>
+      <a class="source" href="./db.html">9</a>
+      <a class="source" href="./db.html">10</a>
+      <!-- </div> -->
+      <a href="./db.html"><img src="./images/Ellipse 2 (1).png" /></a>
+    </div>
+
+    <hr />
+
+
+
+  <!--              footer html starts here................................ -->
+
+  
+  <footer class="similar">
+    <img class="similar-names-as-above-item" alt="" src="./public/rectangle-134.svg" />
+
+    <a href="https://www.reoptimizer.com/what-is-reoptimization"><b class="top-optimization">Top Optimization</b></a>
+    <a href="index.html"><b class="home1">Home</b></a>
+    <b class="broker-bridge1">Broker Bridge | © All rights reserved 2023 - 2024</b>
+    <a href="https://www.propacity.in/blog/top-real-estate-companies-in-india/#:~:text=The%20most%20popular%20ones%20are,reputation%20in%20the%20respective%20sector."><b class="company">Company</b></a>
+    
+
+    <div class="rectangle-parent3">
+      <div class="properties-list-wrapper">
+        <div class="properties-list">
+          <div class="property-search">
+            <div class="customer-support">
+              <div class="renters-hub">
+                <div class="list-or-advertise-container">
+                      
+                </div>
+              </div>
+             
+    <b class="connect-with-our">Connect with our Community</b>
+    <a href="./index.html">
+      <img class="download-3-removebg-preview-icon1" loading="lazy" alt="BB-logo" src="./public/logo/footer-bb-logo.png"/>
+    </a>
+    
+
+    <a href="https://youtu.be/9BSHeaaYSQI?si=H16JN_8cBMjPnbKa">
+      <img class="image-4-icon" loading="lazy" alt="" src="./public/logo/youtube-logo.png"/>
+    </a> 
+    
+    <a href="https://www.instagram.com/">
+      <img class="image-1-icon" loading="lazy" alt="insta-logo" src="./public/logo/Insta-logo.png"/>
+    </a>
+    
+    <a href="https://www.facebook.com/">
+      <img class="icon1" loading="lazy" alt="FB-logo" src="./public/logo/FBicon.png" />
+    </a>
+    
+    <a href="https://twitter.com/?lang=en" >
+      <img class="image-2-icon" loading="lazy" alt="" src="./public/logo/Twitter-logo.png"/>
+    </a>
+
+    <img class="similar-names-as-above-inner" loading="lazy" alt="" />
+
+    <b class="building-the-best">Building the best platform for our people to find the best investment options with the best brokers availabible in the market.. I hope you guys enjoy our service</b>
+    
+    <a href="https://youtu.be/9BSHeaaYSQI?si=H16JN_8cBMjPnbKa" > <b class="product">Product</b> </a>
+    <a href="https://www.pwc.com/us/en/industries/financial-services/asset-wealth-management/real-estate/emerging-trends-in-real-estate.html"><b class="whats-new">What’s New</b></a>
+    <a href="https://en.wikipedia.org/wiki/Real_estate_business" > <b class="business">Business</b> </a>
+    <a href="AboutUS.html"><b class="about-us2">About us</b></a>
+    <a href="contact-us.html"> <b class="customers">Customers</b> </a>
+    <a href="https://tatarealty.in/blogs"><b class="blog">Blog</b></a>
+    <a href="https://blog.hubspot.com/sales/real-estate"> <b class="learn">Learn</b> </a>
+    <a href="https://www.investopedia.com/terms/p/property-management.asp"><b  class="work-management">Work Management</b></a>
+    <a href="https://www.homesrep.com/"><b class="partners">Partners</b></a>
+    <a href="https://www.youtube.com/playlist?list=PLGA0LVyjgnx_FYRGDGNkPJpI8_AB_TyZa"><b  class="customer-success">Customer Success</b></a>
+    <a href="contact-us.html"><b class="support3">Support</b></a>
+    </footer>
+
+
+  </div>
+
+  
+
+
+
+
+
+
+
+  <script src="loading.js"></script>
+  <script src="index.js"></script>
+  <script src="hire__broker.js"></script>
+
+
+   
+  </body>
+</html>
