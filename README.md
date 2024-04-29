@@ -8,4 +8,4 @@ Introducing "Broker Bridge," your gateway to navigating the dynamic realm of rea
 
 Join us at Broker Bridge and bridge the gap between aspiration and reality, where choice is the currency and every deal is a step closer to your vision of home. Discover, negotiate, and secure your future with confidence. Broker Bridge: where the best deals are not just found, but created.
 
-## :maple_leaf: [Click here](https://prayag9.github.io/Broker-Bridge/) to cisit our Website.
+## :maple_leaf: [Click here](https://prayag9.github.io/Broker-Bridge/) to visit our Website.
