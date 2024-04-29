@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hire_broker.css" />
+  <title>Broker List</title>
+  <style></style>
+</head>
+<body>
+</div>
+  <div class="grid-container">
+    <% brokers.forEach(broker => { %>
+      <div class="grid-item">
+        <img src="./images/default-profile.png" alt="Profile Image" width="381" height="282" />
+        <div class="profile-info">
+          <div class="profile">
+            <img class="proimg" src="./images/Frame.svg" alt="Profile Icon" />
+            <p class="name"><%= broker.name %></p>
+          </div>
+          <div class="description">
+            <%= broker.description %>
+          </div>
+          <div class="rating">
+            <img src="./images/Group.svg" alt="Star" width="20" height="20" />
+            <span class="rating-text">5.0</span>
+          </div>
+        </div>
+      </div>
+    <% }); %>
+  </div>
+
+</body>
+</html>
